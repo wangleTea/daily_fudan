@@ -91,6 +91,7 @@ class Fudan:
             "password": self.psw,
             "service" : "https://zlapp.fudan.edu.cn/site/ncov/fudanDaily"
         }
+        print(self.psw)
 
         # 获取登录页上的令牌
         data.update(
